@@ -1,0 +1,134 @@
+html {
+    background-color: rgb(104, 124, 98);
+}
+
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+
+    .name {
+        font-size:175%;
+        font-family:'Times New Roman', Times, serif;
+        outline: 0.5px black solid;
+        color: rgb(52, 121, 167);
+        background-color: #f7fff4;
+        border-radius: 50px;
+        border: 10px rgb(33, 76, 105) solid;
+        text-align: center;
+        font-style: italic;
+      }
+
+}
+
+.nav {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-direction: row;
+    
+
+    .background-nav {
+        font-size: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #ffffff50;
+        border: rgb(0, 0, 0);
+        border-radius: 10%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        border-style: dashed;
+        color: rgb(0, 0, 0);
+    }
+    /*.interest-nav {
+        font-size: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #ffffff;
+        border: rgb(33, 76, 105);
+        border-radius: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-style: dashed;
+        color: rgb(33, 76, 105);
+    }
+    .goal-nav {
+        font-size: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #ffffff;
+        border: rgb(33, 76, 105);
+        border-radius: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        border-style: dashed;
+        color: rgb(33, 76, 105);
+        
+    }*/
+
+}
+
+.section {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 20px rgb(33, 76, 105);
+
+    
+    .background {
+            font-size: 125%;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(33, 76, 105);
+            margin: 20px;
+            padding-right:5%;
+            padding-left: 2%;
+            border-radius: 10px;
+            border: rgb(33, 76, 105) solid;
+            background-color: #ffffff;       
+            
+                }
+
+    .interest {
+            font-size: 125%;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(33, 76, 105);
+            margin: 20px;
+            padding-right:5%;
+            padding-left: 2%;
+            border-radius: 10px;
+            border: rgb(33, 76, 105) solid;
+            background-color: #ffffff;
+
+             }
+
+    .goal{
+            font-size: 125%;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(33, 76, 105);
+            margin: 20px;
+            padding-right:5%;
+            padding-left: 5%;
+            border-radius: 10px;
+            border: rgb(33, 76, 105) solid;
+            background-color: #ffffff;
+        }
+      
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 5%; ;
+    margin-right: 5%;
+    padding-top: 20%;
+    font-size: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(22, 29, 24);
+
+}
+
+
+
